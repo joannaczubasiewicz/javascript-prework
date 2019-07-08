@@ -11,19 +11,18 @@
 
 $font-one: 'Barriecito',
 cursive;
-$font-two: 'Proza Libre', sans-serif;
-
-
-
-
+$font-two: 'Proza Libre',
+sans-serif;
 
 /*hello*/
+
 .hello {
     background-image: url('https://images.pexels.com/photos/1249214/pexels-photo-1249214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     width: 100%;
     min-height: 600px;
-    background-position: 0% 0;
+    /*background-position: 0% 0;*/
     background-size: cover;
+    object-fit: cover;
 }
 
 .container {
@@ -47,17 +46,36 @@ $font-two: 'Proza Libre', sans-serif;
     }
 }
 
-.buttons {
+
+/*Rules*/
+
+.rules-inner {
+    text-align: center;
+    .rules-subtitle {
+        font-size: 25px;
+        font-family: $font-one;
+    }
+    .description {
+        font-family: $font-two;
+        font-size: 20px;
+    }
+}
+
+
+/*Main-Game*/
+
+
+/*.buttons {
     margin: auto;
     flex-direction: column;
-    margin: 50px 50px;
-}
+    margin: 10px 10px;
+}*/
 
 button {
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
     font-family: $font-one;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .one {
@@ -72,12 +90,12 @@ button {
     background-color: #f8a5c2;
 }
 
-..messages {
+.messages {
     padding: 20px;
     .message {
         flex-wrap: wrap;
         font-family: $font-two;
-        text-align: center:
+        text-align: center;
         font-weight: bold;
         font-size: 25px;
     }
