@@ -1,0 +1,84 @@
+/*Global*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/*Variables*/
+
+$font-one: 'Barriecito',
+cursive;
+$font-two: 'Proza Libre', sans-serif;
+
+
+
+
+
+/*hello*/
+.hello {
+    background-image: url('https://images.pexels.com/photos/1249214/pexels-photo-1249214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    width: 100%;
+    min-height: 600px;
+    background-position: 0% 0;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.header-inner {
+    margin: auto;
+    text-align: center;
+    line-height: 45px;
+    padding: 15px;
+    font-family: $font-one;
+    .welcome-title {
+        font-size: 55px;
+    }
+    .subtitle {
+        font-size: 30px;
+    }
+}
+
+.buttons {
+    margin: auto;
+    flex-direction: column;
+    margin: 50px 50px;
+}
+
+button {
+    padding: 20px;
+    margin: 20px;
+    font-family: $font-one;
+    font-size: 20px;
+}
+
+.one {
+    background-color: #ea8685;
+}
+
+.two {
+    background-color: #f7d794;
+}
+
+.three {
+    background-color: #f8a5c2;
+}
+
+..messages {
+    padding: 20px;
+    .message {
+        flex-wrap: wrap;
+        font-family: $font-two;
+        text-align: center:
+        font-weight: bold;
+        font-size: 25px;
+    }
+}

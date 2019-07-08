@@ -1,0 +1,74 @@
+/*Global*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*Variables*/
+/*hello*/
+.hello {
+  background-image: url("https://images.pexels.com/photos/1249214/pexels-photo-1249214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  width: 100%;
+  min-height: 600px;
+  background-position: 0% 0;
+  background-size: cover;
+}
+
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 70px;
+}
+
+.header-inner {
+  margin: auto;
+  text-align: center;
+  line-height: 45px;
+  padding: 15px;
+  font-family: "Barriecito", cursive;
+}
+
+.header-inner .welcome-title {
+  font-size: 55px;
+}
+
+.header-inner .subtitle {
+  font-size: 30px;
+}
+
+.buttons {
+  margin: auto;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 50px 50px;
+}
+
+button {
+  padding: 20px;
+  margin: 20px;
+  font-family: "Barriecito", cursive;
+  font-size: 20px;
+}
+
+.one {
+  background-color: #ea8685;
+}
+
+.two {
+  background-color: #f7d794;
+}
+
+.three {
+  background-color: #f8a5c2;
+}
+
+.message {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "Proza Libre", sans-serif;
+}
